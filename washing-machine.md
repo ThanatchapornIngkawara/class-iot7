@@ -1,79 +1,77 @@
 ![Washing Machine](pictures/iot-machine.png)
 
+
 ## Get hardware level operations e.g. wash_count
-```
-Topic: v1cdti/hw/get/6310301007/เครื่องซักผ้าฝาบน/WSH-SN001
+Topic: v1/hw/get/6310301007/model-01/WSH-SN001
 Payload: {
     "action"    : "get",
     "project"   : "6310301007",
     "model"     : "model-01",
     "serial"    : "WSH-SN01",
     "name"      : "wash_count",
-    "value"     : "120"
+    "value"     : "130"
 }
-```
 
 ## Get firmware version
-```
-Topic: v1cdti/hw/get/6310301007/เครื่องซักผ้าฝาบน/WSH-SN001
+Topic: v1/hw/get/6310301007/model-01/WSH-SN001
 Payload: {
     "action"    : "get",
     "project"   : "6310301007",
-    "model"     : "เครื่องซักผ้าฝาบน",
+    "model"     : "model-01",
     "serial"    : "WSH-SN01",
-    "name"      : "firmware version",
-    "value"     : "150"
+    "name"      : "get firmware",
+    "value"     : "112"
 }
-```
 
 ## Get manufacture id and geo-location or location placement
-```
-Topic: v1cdti/hw/get/6310301007/เครื่องซักผ้าฝาบน/WSH-SN001
+Topic: v1/hw/get/6310301007/model-01/WSH-SN001
 Payload: {
     "action"    : "get",
     "project"   : "6310301007",
-    "model"     : "เครื่องซักผ้าฝาบน",
+    "model"     : "model-01",
     "serial"    : "WSH-SN01",
-    "name"      : " geo-location", " location placement"
-    "value"     : "164"
-
+    "name"      : "manufacture id",
+    "value"     : "A"
 }
-```
+
+Payload: {
+    "action"    : "get",
+    "project"   : "6310301007",
+    "model"     : "model-01",
+    "serial"    : "WSH-SN01",
+    "name"      : "location",
+    "value"     : "Uthai"
+}
 
 ## Set geo-location or location placement
-```
-Topic: v1cdti/hw/set/6310301007/เครื่องซักผ้าฝาบน/WSH-SN001
+Topic: v1/hw/set/6310301007/model-01/WSH-SN001
 Payload: {
     "action"    : "set",
     "project"   : "6310301007",
-    "model"     : "เครื่องซักผ้าฝาบน",
+    "model"     : "model-01",
     "serial"    : "WSH-SN01",
-    "name"      : "geo-location",
-    "value"     : "163"
+    "name"      : "location",
+    "value"     : "Uthai"
 }
-```
 
 ## Monitor machine sensor
-```
-Topic: v1cdti/hw/get/6310301007/เครื่องซักผ้าฝาบน/WSH-SN001
+Topic: v1/hw/monitor/6310301007/model-01/WSH-SN001
 Payload: {
-    "action"    : "set",
+"action"    : "monitor",
     "project"   : "6310301007",
-    "model"     : "เครื่องซักผ้าฝาบน",
+    "model"     : "model-01",
     "serial"    : "WSH-SN01",
-    "name"      : "Monitor-machine-sensor",
-    "value"     : "113"
+    "name"      : "Vibration Sensor",
+    "value"     : "180"
 }
-```
 
 ## Set machie status to "maint" to indicate this machine need to be maintenance.
-```
-Topic: v1cdti/hw/set/6310301007/เครื่องซักผ้าฝาบน/WSH-SN001
+Topic: v1/hw/set/6310301007/model-01/WSH-SN001
 Payload: {
-    "action"    : "set",
+"action"    : "set",
     "project"   : "6310301007",
-    "model"     : "เครื่องซักผ้าฝาบน",
+    "model"     : "model-01",
     "serial"    : "WSH-SN01",
     "name"      : "status",
+    "value"     : "main"
 }
-```
