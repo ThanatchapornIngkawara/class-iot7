@@ -51,7 +51,7 @@ Payload: {
     "model"     : "model-01",
     "serial"    : "WSH-SN01",
     "name"      : "location",
-    "value"     : "Uthai"
+    "value"     : "Bangkok"
 }
 
 ## Monitor machine sensor
