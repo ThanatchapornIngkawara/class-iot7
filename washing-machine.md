@@ -2,7 +2,7 @@
 
 
 ## Get hardware level operations e.g. wash_count
-Topic: v1/hw/get/6310301007/model-01/WSH-SN001
+Topic: v1cdti/hw/get/6310301007/model-01/WSH-SN001
 Payload: {
     "action"    : "get",
     "project"   : "6310301007",
@@ -13,7 +13,7 @@ Payload: {
 }
 
 ## Get firmware version
-Topic: v1/hw/get/6310301007/model-01/WSH-SN001
+Topic: v1cdti/hw/get/6310301007/model-01/WSH-SN001
 Payload: {
     "action"    : "get",
     "project"   : "6310301007",
@@ -24,7 +24,7 @@ Payload: {
 }
 
 ## Get manufacture id and geo-location or location placement
-Topic: v1/hw/get/6310301007/model-01/WSH-SN001
+Topic: v1cdti/hw/get/6310301007/model-01/WSH-SN001
 Payload: {
     "action"    : "get",
     "project"   : "6310301007",
@@ -44,7 +44,7 @@ Payload: {
 }
 
 ## Set geo-location or location placement
-Topic: v1/hw/set/6310301007/model-01/WSH-SN001
+Topic: v1cdti/hw/set/6310301007/model-01/WSH-SN001
 Payload: {
     "action"    : "set",
     "project"   : "6310301007",
@@ -55,7 +55,7 @@ Payload: {
 }
 
 ## Monitor machine sensor
-Topic: v1/hw/monitor/6310301007/model-01/WSH-SN001
+Topic: v1cdti/hw/monitor/6310301007/model-01/WSH-SN001
 Payload: {
 "action"    : "monitor",
     "project"   : "6310301007",
@@ -66,7 +66,7 @@ Payload: {
 }
 
 ## Set machie status to "maint" to indicate this machine need to be maintenance.
-Topic: v1/hw/set/6310301007/model-01/WSH-SN001
+Topic: v1cdti/hw/set/6310301007/model-01/WSH-SN001
 Payload: {
 "action"    : "set",
     "project"   : "6310301007",
