@@ -57,7 +57,7 @@ Payload: {
 ## Monitor machine sensor
 Topic: v1cdti/hw/monitor/6310301007/model-01/WSH-SN001
 Payload: {
-"action"    : "monitor",
+    "action"    : "monitor",
     "project"   : "6310301007",
     "model"     : "model-01",
     "serial"    : "WSH-SN01",
@@ -68,7 +68,7 @@ Payload: {
 ## Set machie status to "maint" to indicate this machine need to be maintenance.
 Topic: v1cdti/hw/set/6310301007/model-01/WSH-SN001
 Payload: {
-"action"    : "set",
+    "action"    : "set",
     "project"   : "6310301007",
     "model"     : "model-01",
     "serial"    : "WSH-SN01",
